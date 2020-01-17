@@ -1,0 +1,101 @@
+[global_config]
+  extra_styling = False
+  focus = system
+  inactive_color_offset = 0.88
+  suppress_multiple_term_dialog = True
+  title_font = Liberation Mono 10
+  title_hide_sizetext = True
+  title_transmit_bg_color = "#27405a"
+  title_use_system_font = False
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = 498d1002-7928-4d4b-a6b7-0f572251cbaa
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 0:0
+      size = 1920, 1033
+      title = lamech@lamech: ~
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 957
+      ratio = 0.5
+      type = HPaned
+    [[[child2]]]
+      order = 0
+      parent = child1
+      position = 512
+      ratio = 0.5
+      type = VPaned
+    [[[child5]]]
+      order = 1
+      parent = child1
+      position = 512
+      ratio = 0.5
+      type = VPaned
+    [[[terminal3]]]
+      directory = ~/
+      order = 0
+      parent = child2
+      profile = lamech
+      type = Terminal
+      uuid = 303d9357-027c-42c8-a2c5-ce78b8aa99e9
+    [[[terminal4]]]
+      directory = ~/
+      order = 1
+      parent = child2
+      profile = lamech
+      type = Terminal
+      uuid = c338fad3-d42d-4555-9d85-4828e89334c2
+    [[[terminal6]]]
+      directory = ~/
+      order = 0
+      parent = child5
+      profile = lamech
+      type = Terminal
+      uuid = 498d1002-7928-4d4b-a6b7-0f572251cbaa
+    [[[terminal7]]]
+      directory = ~/
+      order = 1
+      parent = child5
+      profile = lamech
+      type = Terminal
+      uuid = b3b575b7-c732-41fe-a899-662e570272af
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#002b36"
+    background_darkness = 0.95
+    background_type = transparent
+    copy_on_selection = True
+    cursor_color = "#dbeeee"
+    font = Liberation Mono 11
+    foreground_color = "#eeeeec"
+    icon_bell = False
+    palette = "#000000:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#d3d7cf:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+    scroll_on_keystroke = False
+    scrollback_lines = 1000
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
+  [[lamech]]
+    background_color = "#002b36"
+    background_darkness = 0.95
+    background_type = transparent
+    copy_on_selection = True
+    cursor_color = "#aaaaaa"
+    font = D2Coding 12
+    foreground_color = "#eeeeec"
+    icon_bell = False
+    palette = "#000000:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#d3d7cf:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+    scroll_on_keystroke = False
+    scrollback_lines = 1000
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
